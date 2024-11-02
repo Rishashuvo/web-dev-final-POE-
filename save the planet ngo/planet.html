@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join us in saving the planet through sustainable actions. Together, we can heal our planet.">
+    <title>Save Our Planet</title>
+    <link rel="stylesheet" href="planet.css">
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('active');
+        }
+    </script>
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">SAVE OUR PLANET</h2>
+            </div>
+
+            <div class="menu" id="menu">
+                <ul>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="news.html">NEWS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" placeholder="Type To text">
+                <button class="btn">Search</button>
+            </div>
+
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        </div> 
+
+        <div class="content">
+            <h1>Together</h1>
+            <span>We Can Heal Our Planet</span>
+            <p class="par">Our planet is facing unprecedented challenges, from climate change and deforestation to pollution and species extinction. But together, we can make a difference. By uniting our efforts and taking small, everyday actions, we have the power to restore the balance of our ecosystems and protect the natural world for future generations. Whether it's reducing waste, conserving energy, or supporting sustainable initiatives, every step counts. Join us in the global movement to heal our planet—because a healthier Earth means a better future for all.</p>
+            <button class="cn"><a href="#">JOIN US</a></button>
+        </div>
+    </div>
+
+</body>
+</html>
